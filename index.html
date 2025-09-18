@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyAid - AI-Powered Survey Creation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal stylesheet for home page specificstyles */
+        .hero-section {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%), url('images/BackgroundImg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 120px 20px;
+            min-height: 80vh;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .hero-text {
+            flex: 1;
+            text-align: left;
+        }
+        
+        .hero-text h1 {
+            font-size: 3.5rem;
+            margin-bottom: 25px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+        
+        .hero-text p {
+            font-size: 1.4rem;
+            margin-bottom: 35px;
+        }
+        
+        .hero-image {
+            flex: 1.2;
+            text-align: center;
+        }
+        
+        .hero-img {
+            max-width: 100%;
+            height: auto;
+            max-height: 700px;
+            width: auto;
+        }
+        
+        .app-store-button {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+        
+        .app-store-badge {
+            height: 60px;
+            width: auto;
+        }
+        
+        
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .hero-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/IconStart.png" alt="SurveyAid Logo" class="logo-img">
+                <h2>SurveyAid</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Create AI-powered assessments in seconds.</h1>
+                    <p>Download now on the app store</p>
+                    <a href="https://apps.apple.com" class="app-store-button" target="_blank" rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" class="app-store-badge">
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/FirstHomeImg.PNG" alt="SurveyAid app interface" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Welcome to SurveyAid</h2>
+                <p>Build assessments with AI in seconds or create manually</p>
+                <img src="images/Section1Img.PNG" alt="SurveyAid mobile interface" class="screenshot">
+            </div>
+        </section>
+
+        <section class="content-section alt-bg">
+            <div class="container">
+                <h2>Take surveys anonymously or in kiosk mode</h2>
+                <p>Collect participant information efficiently with flexible survey modes</p>
+                <img src="images/Section2Img.PNG" alt="SurveyAid kiosk mode" class="screenshot">
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Keep track of all surveys and responses</h2>
+                <p>Manage all your surveys and responses in one centralized location</p>
+                <img src="images/Section3Img.PNG" alt="SurveyAid dashboard" class="screenshot">
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to get started?</h2>
+                <a href="https://apps.apple.com" class="app-store-button" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" class="app-store-badge">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025. All rights reserved.</p>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
